@@ -1,0 +1,182 @@
+[
+  {
+    "id": "sun_sign",
+    "topic": "Sun sign",
+    "keywords": ["sun", "core identity", "ego", "life purpose", "vitality"],
+    "content": "The Sun sign represents your core identity, conscious ego, and life purpose. It shows how you express yourself most naturally and what energizes you. The Sun takes about 30 days to move through each sign."
+  },
+  {
+    "id": "moon_sign",
+    "topic": "Moon sign",
+    "keywords": ["moon", "emotions", "instincts", "subconscious", "mother", "comfort"],
+    "content": "The Moon sign governs your emotional nature, instincts, and subconscious patterns. It reveals what you need to feel safe and nurtured. The Moon moves quickly, changing signs every 2-3 days."
+  },
+  {
+    "id": "ascendant",
+    "topic": "Ascendant / Rising sign",
+    "keywords": ["ascendant", "rising", "first impression", "appearance", "outer personality"],
+    "content": "The Ascendant (rising sign) is the zodiac sign on the eastern horizon at birth. It shapes your outer personality, first impressions, and physical appearance. It changes every two hours, making birth time crucial."
+  },
+  {
+    "id": "mercury_sign",
+    "topic": "Mercury sign",
+    "keywords": ["mercury", "communication", "thinking", "intellect", "learning", "speech"],
+    "content": "Mercury governs communication, thinking style, and how you process information. Its sign shows how you speak, write, and learn. Mercury retrograde periods can slow communication and cause misunderstandings."
+  },
+  {
+    "id": "venus_sign",
+    "topic": "Venus sign",
+    "keywords": ["venus", "love", "beauty", "relationships", "values", "pleasure", "money"],
+    "content": "Venus rules love, beauty, relationships, and values. Its sign shows what you find attractive and how you express affection. Venus also governs money, art, and aesthetic sensibilities."
+  },
+  {
+    "id": "mars_sign",
+    "topic": "Mars sign",
+    "keywords": ["mars", "action", "energy", "desire", "anger", "motivation", "drive"],
+    "content": "Mars represents drive, ambition, and how you take action. Its sign shows your energy style, what motivates you, and how you handle conflict and desire. Mars rules physical energy and sexuality."
+  },
+  {
+    "id": "jupiter_sign",
+    "topic": "Jupiter sign",
+    "keywords": ["jupiter", "expansion", "luck", "abundance", "wisdom", "growth", "opportunity"],
+    "content": "Jupiter is the planet of expansion, luck, and higher wisdom. Its sign shows where you find abundance and opportunity. Jupiter spends about a year in each sign and brings growth wherever it touches."
+  },
+  {
+    "id": "saturn_sign",
+    "topic": "Saturn sign",
+    "keywords": ["saturn", "discipline", "karma", "lessons", "responsibility", "structure", "limitation"],
+    "content": "Saturn represents discipline, karma, and life lessons. Its sign shows where you face challenges that ultimately build strength. Saturn return at around age 29 marks a major life milestone."
+  },
+  {
+    "id": "conjunction",
+    "topic": "Conjunction aspect",
+    "keywords": ["conjunction", "0 degrees", "merging", "blending", "intensity"],
+    "content": "A conjunction occurs when two planets are 0 degrees apart. They merge their energies, amplifying each other. This is the most powerful aspect — the planets act as one force, for better or worse depending on the planets involved."
+  },
+  {
+    "id": "trine",
+    "topic": "Trine aspect",
+    "keywords": ["trine", "120 degrees", "harmony", "ease", "flow", "talent", "gift"],
+    "content": "A trine forms when planets are 120 degrees apart, always in the same element. It brings harmony, ease, and natural talent. Trines indicate where things flow effortlessly, though their gifts can be taken for granted."
+  },
+  {
+    "id": "square",
+    "topic": "Square aspect",
+    "keywords": ["square", "90 degrees", "tension", "challenge", "friction", "growth"],
+    "content": "A square occurs when planets are 90 degrees apart. It creates tension and challenge, pushing you to take action and overcome friction. Squares are difficult but dynamic — they drive growth and achievement."
+  },
+  {
+    "id": "opposition",
+    "topic": "Opposition aspect",
+    "keywords": ["opposition", "180 degrees", "polarity", "balance", "projection", "relationships"],
+    "content": "An opposition forms when planets are 180 degrees apart. It creates polarity and tension between two opposing forces. Oppositions often play out through relationships, where we project one side onto others."
+  },
+  {
+    "id": "sextile",
+    "topic": "Sextile aspect",
+    "keywords": ["sextile", "60 degrees", "opportunity", "cooperation", "mild harmony"],
+    "content": "A sextile forms when planets are 60 degrees apart. It brings mild harmony and opportunity — less automatic than a trine, but cooperative energy that rewards effort. Sextiles show talents you develop with practice."
+  },
+  {
+    "id": "aries",
+    "topic": "Aries",
+    "keywords": ["aries", "fire", "cardinal", "ram", "pioneer", "courage", "initiative"],
+    "content": "Aries is the first sign — a cardinal fire sign ruled by Mars. It embodies courage, initiative, and pioneering spirit. Aries energy is bold, direct, and action-oriented. The shadow side is impulsiveness and impatience."
+  },
+  {
+    "id": "taurus",
+    "topic": "Taurus",
+    "keywords": ["taurus", "earth", "fixed", "bull", "stability", "pleasure", "persistence"],
+    "content": "Taurus is a fixed earth sign ruled by Venus. It values stability, beauty, and material comfort. Taurus energy is patient, persistent, and sensual. The shadow side is stubbornness and resistance to change."
+  },
+  {
+    "id": "gemini",
+    "topic": "Gemini",
+    "keywords": ["gemini", "air", "mutable", "twins", "communication", "curiosity", "versatility"],
+    "content": "Gemini is a mutable air sign ruled by Mercury. It embodies curiosity, adaptability, and communication. Gemini energy is quick, witty, and versatile. The shadow side is restlessness and inconsistency."
+  },
+  {
+    "id": "cancer",
+    "topic": "Cancer",
+    "keywords": ["cancer", "water", "cardinal", "crab", "nurturing", "home", "intuition", "family"],
+    "content": "Cancer is a cardinal water sign ruled by the Moon. It governs home, family, and emotional security. Cancer energy is nurturing, intuitive, and protective. The shadow side is moodiness and emotional withdrawal."
+  },
+  {
+    "id": "leo",
+    "topic": "Leo",
+    "keywords": ["leo", "fire", "fixed", "lion", "creativity", "leadership", "self-expression"],
+    "content": "Leo is a fixed fire sign ruled by the Sun. It embodies creativity, leadership, and self-expression. Leo energy is generous, warm, and dramatic. The shadow side is ego, pride, and need for validation."
+  },
+  {
+    "id": "virgo",
+    "topic": "Virgo",
+    "keywords": ["virgo", "earth", "mutable", "maiden", "service", "analysis", "health", "perfection"],
+    "content": "Virgo is a mutable earth sign ruled by Mercury. It values precision, service, and improvement. Virgo energy is analytical, helpful, and detail-oriented. The shadow side is perfectionism and self-criticism."
+  },
+  {
+    "id": "libra",
+    "topic": "Libra",
+    "keywords": ["libra", "air", "cardinal", "scales", "balance", "harmony", "partnership", "justice"],
+    "content": "Libra is a cardinal air sign ruled by Venus. It governs balance, relationships, and justice. Libra energy is diplomatic, charming, and fair-minded. The shadow side is indecisiveness and people-pleasing."
+  },
+  {
+    "id": "scorpio",
+    "topic": "Scorpio",
+    "keywords": ["scorpio", "water", "fixed", "scorpion", "transformation", "depth", "power", "mystery"],
+    "content": "Scorpio is a fixed water sign ruled by Pluto and Mars. It governs transformation, depth, and hidden truths. Scorpio energy is intense, perceptive, and magnetic. The shadow side is jealousy and obsessive control."
+  },
+  {
+    "id": "sagittarius",
+    "topic": "Sagittarius",
+    "keywords": ["sagittarius", "fire", "mutable", "archer", "philosophy", "freedom", "adventure", "truth"],
+    "content": "Sagittarius is a mutable fire sign ruled by Jupiter. It embodies freedom, philosophy, and adventure. Sagittarius energy is optimistic, expansive, and truth-seeking. The shadow side is bluntness and lack of follow-through."
+  },
+  {
+    "id": "capricorn",
+    "topic": "Capricorn",
+    "keywords": ["capricorn", "earth", "cardinal", "goat", "ambition", "discipline", "achievement", "career"],
+    "content": "Capricorn is a cardinal earth sign ruled by Saturn. It governs ambition, discipline, and achievement. Capricorn energy is patient, strategic, and responsible. The shadow side is coldness and workaholism."
+  },
+  {
+    "id": "aquarius",
+    "topic": "Aquarius",
+    "keywords": ["aquarius", "air", "fixed", "water bearer", "innovation", "humanity", "freedom", "rebellion"],
+    "content": "Aquarius is a fixed air sign ruled by Uranus and Saturn. It embodies innovation, humanitarian ideals, and independence. Aquarius energy is visionary, progressive, and unconventional. The shadow side is emotional detachment."
+  },
+  {
+    "id": "pisces",
+    "topic": "Pisces",
+    "keywords": ["pisces", "water", "mutable", "fish", "spirituality", "compassion", "dreams", "intuition"],
+    "content": "Pisces is a mutable water sign ruled by Neptune and Jupiter. It governs spirituality, compassion, and imagination. Pisces energy is empathetic, dreamy, and boundless. The shadow side is escapism and lack of boundaries."
+  },
+  {
+    "id": "saturn_return",
+    "topic": "Saturn return",
+    "keywords": ["saturn return", "29", "30", "life milestone", "maturity", "responsibility"],
+    "content": "The Saturn return occurs around ages 28-30 when Saturn returns to its natal position. It marks a major life milestone — a time of reckoning, maturity, and taking responsibility. It often brings career changes, relationship shifts, or a deeper sense of purpose."
+  },
+  {
+    "id": "mercury_retrograde",
+    "topic": "Mercury retrograde",
+    "keywords": ["mercury retrograde", "retrograde", "communication breakdown", "delays", "review"],
+    "content": "Mercury retrograde occurs 3-4 times per year for about 3 weeks. It is associated with communication delays, tech glitches, and misunderstandings. It is a good time for review, revision, and reflection — not ideal for signing contracts or launching new projects."
+  },
+  {
+    "id": "career_houses",
+    "topic": "Career and vocation",
+    "keywords": ["career", "work", "vocation", "10th house", "midheaven", "profession", "success"],
+    "content": "Career is primarily seen through the 10th house and its ruling planet, plus the Midheaven sign. The 6th house governs daily work and service. Saturn and the Sun also indicate career themes. Strong earth signs (Capricorn, Taurus, Virgo) often indicate practical career paths."
+  },
+  {
+    "id": "love_relationships",
+    "topic": "Love and relationships",
+    "keywords": ["love", "relationships", "partner", "marriage", "7th house", "venus", "romance"],
+    "content": "Relationships are seen through Venus, the 7th house, and its ruling planet. The 5th house governs romance and dating. Synastry (comparing two charts) reveals relationship dynamics. Venus sign shows what you seek in love; Mars shows what attracts you."
+  },
+  {
+    "id": "disclaimer",
+    "topic": "Astrology disclaimer",
+    "keywords": ["medical", "financial", "legal", "advice", "certain", "guarantee", "diagnosis"],
+    "content": "Astrology offers guidance and reflection — it is not a substitute for professional medical, legal, or financial advice. Readings describe tendencies and energies, not fixed destinies. Always consult qualified professionals for health, legal, or financial decisions."
+  }
+]
