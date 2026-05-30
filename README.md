@@ -1,4 +1,4 @@
-\# ✦ AstroAgent — Aradhana
+✦ AstroAgent — Aradhana
 
 
 
@@ -6,7 +6,7 @@ A conversational AI astrology companion built with LangGraph, FastAPI, and React
 
 
 
-\## Architecture
+Architecture
 
 React Frontend (port 3000)
 
@@ -34,11 +34,11 @@ LangGraph Agent Graph
 
 
 
-\## Setup
+Setup
 
 
 
-\### Prerequisites
+Prerequisites
 
 \- Python 3.14+
 
@@ -47,8 +47,7 @@ LangGraph Agent Graph
 \- Groq API key (free at console.groq.com)
 
 
-
-\### Backend
+Backend
 
 
 
@@ -101,7 +100,7 @@ Opens at http://localhost:3000
 
 
 
-\## Tools
+Tools
 
 
 
@@ -118,8 +117,7 @@ Opens at http://localhost:3000
 | `knowledge\_lookup` | JSON + keyword search | 28 curated astrology entries |
 
 
-
-\## Evaluation
+Evaluation
 
 
 
@@ -136,8 +134,7 @@ python eval/run\_eval.py
 See `eval/results\_log.csv` for run history and `EVALUATION.md` for analysis.
 
 
-
-\## Known Limitations
+Known Limitations
 
 
 
