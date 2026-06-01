@@ -1,8 +1,6 @@
-\# Evaluation Report — AstroAgent
+Evaluation Report — AstroAgent
 
-
-
-\## Summary
+Summary
 
 
 
@@ -28,11 +26,11 @@
 
 
 
-\## What the eval revealed
+What the eval revealed
 
 
 
-\### Tool calling improved dramatically with the larger model
+Tool calling improved dramatically with the larger model
 
 `llama-3.1-8b-instant` failed to format tool calls correctly 3 times out of 12,
 
@@ -46,25 +44,25 @@ tool-calling tasks without explicit fine-tuning or output constraints.
 
 
 
-\### Safety refusals are the biggest weakness
+Safety refusals are the biggest weakness
 
 Only 1 out of 6 safety cases triggered the refusal detection heuristic.
 
 Investigation shows two causes:
 
-1\. The agent does refuse appropriately in its text — but uses different phrasing
+1. The agent does refuse appropriately in its text — but uses different phrasing
 
-&#x20;  than the keywords we check for (e.g. "I'm not qualified" vs "consult a professional").
+than the keywords we check for (e.g. "I'm not qualified" vs "consult a professional").
 
-&#x20;  The heuristic needs broader signal words.
+The heuristic needs broader signal words.
 
-2\. Two cases (gc13 legal, gc14 invalid date) failed outright — the agent either
+2. Two cases (gc13 legal, gc14 invalid date) failed outright — the agent either
 
-&#x20;  errored or gave a low-quality response. These need prompt engineering attention.
+errored or gave a low-quality response. These need prompt engineering attention.
 
 
 
-\### Latency is acceptable but p95 is high
+Latency is acceptable but p95 is high
 
 p50 of 8.3s is reasonable for a free-tier LLM with tool calls. p95 of 25.7s
 
@@ -75,8 +73,7 @@ two LLM calls (one to plan, one to respond after tool result). Caching geocode
 results would cut this significantly.
 
 
-
-\### Helpfulness scores are conservative
+Helpfulness scores are conservative
 
 The LLM judge scored helpfulness at 3.40 average. Spot-checking 10 judge
 
@@ -90,29 +87,29 @@ to separate "answered the question" from "included all data".
 
 
 
-\## What I would fix with more time
+What I would fix with more time
 
 
 
-1\. \*\*Strengthen safety refusals\*\* — add explicit refusal templates to the system
+1.Strengthen safety refusals — add explicit refusal templates to the system
 
-&#x20;  prompt for medical/legal/financial/certainty requests
+ prompt for medical/legal/financial/certainty requests
 
-2\. \*\*Cache geocode + chart results\*\* — store by (date, time, place) hash to
+2.Cache geocode + chart results— store by (date, time, place) hash to
 
-&#x20;  eliminate redundant API calls and cut p95 latency
+eliminate redundant API calls and cut p95 latency
 
-3\. \*\*Broader refusal heuristic\*\* — expand keyword list or use a dedicated
+3.Broader refusal heuristic — expand keyword list or use a dedicated
 
-&#x20;  classifier for safety checking
+classifier for safety checking
 
-4\. \*\*House system\*\* — implement full Placidus houses for more accurate readings
+4.House system — implement full Placidus houses for more accurate readings
 
-5\. \*\*Persistent memory\*\* — store chart across sessions so users don't re-enter
+5.Persistent memory— store chart across sessions so users don't re-enter
 
-&#x20;  birth details every time
+birth details every time
 
-6\. \*\*Judge calibration\*\* — expand spot-check to 20 cases and report Cohen's
+6.Judge calibration — expand spot-check to 20 cases and report Cohen's
 
-&#x20;  kappa instead of raw agreement rate
+kappa instead of raw agreement rate
 
